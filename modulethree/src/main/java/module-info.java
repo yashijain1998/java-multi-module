@@ -1,4 +1,4 @@
 module modulethree {
-    requires com.example.spi.VehicleProvider;
+    requires moduleone;
     uses com.example.spi.VehicleProvider;
 }

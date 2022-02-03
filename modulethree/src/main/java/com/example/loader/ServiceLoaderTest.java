@@ -1,7 +1,7 @@
 package com.example.loader;
 
 import java.util.ServiceLoader;
-import VehicleProvider;
+import com.example.spi.*;
 
 /**
  * Hello world!
@@ -13,9 +13,9 @@ public class ServiceLoaderTest
     {
         System.out.println( "Hello World!" );
         ServiceLoader<VehicleProvider> serviceLoader = ServiceLoader.load(VehicleProvider.class);
-
-		for (VehicleProvider service : serviceLoader) {
-			service.tier();
-		}
+        System.out.println(serviceLoader.stream().count());
+		// for (VehicleProvider service : serviceLoader) {
+		// 	service.tier();
+		// }
     }
 }

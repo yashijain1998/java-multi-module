@@ -1,3 +1,3 @@
 module moduleone {
-    exports com.example.spi.VehicleProvider;
+    exports com.example.spi;
 }
