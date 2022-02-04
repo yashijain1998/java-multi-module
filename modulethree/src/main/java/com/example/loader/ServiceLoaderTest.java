@@ -13,6 +13,7 @@ public class ServiceLoaderTest
     {
         System.out.println( "Hello World!" );
         ServiceLoader<VehicleProvider> serviceLoader = ServiceLoader.load(VehicleProvider.class);
+        System.out.println(VehicleProvider.class);
         System.out.println(serviceLoader.stream().count());
 		// for (VehicleProvider service : serviceLoader) {
 		// 	service.tier();
