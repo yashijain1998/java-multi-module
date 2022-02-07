@@ -3,8 +3,8 @@ import com.example.spi.*;
 
 public class  CarService implements VehicleProvider {
 
-	public void tier() {
-		System.out.println("CarService has 4 tier");
+	public void wheels() {
+		System.out.println("CarService has 4 wheels");
 	}
 
 }

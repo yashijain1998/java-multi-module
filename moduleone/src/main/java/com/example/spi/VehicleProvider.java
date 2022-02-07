@@ -6,5 +6,5 @@ package com.example.spi;
  */
 public interface VehicleProvider 
 {
-    void tier();
+    void wheels();
 }
