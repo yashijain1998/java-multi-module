@@ -8,11 +8,11 @@
   </parent>
 
   <groupId>com.example.spi</groupId>
-  <artifactId>moduleone</artifactId>
+  <artifactId>serviceProvider</artifactId>
   <version>1</version>
   <packaging>jar</packaging>
 
-  <name>moduleone</name>
+  <name>serviceProvider</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

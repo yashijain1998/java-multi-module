@@ -9,9 +9,9 @@
   <name>java-multi-module</name>
   
   <modules>
-    <module>moduleone</module>
-    <module>moduletwo</module>
-    <module>modulethree</module>   
+    <module>serviceProvider</module>
+    <module>impl</module>
+    <module>loader</module>   
   </modules>
     
 </project>

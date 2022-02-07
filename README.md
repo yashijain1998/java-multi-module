@@ -38,19 +38,19 @@ $ ./run-module.sh
 ## Introduction
 ### Parent POM
 There is a single parent pom in a root folder which has 3 child modules
-- moduleone
-- moduletwo
-- modulethree
+- serviceProvider
+- impl
+- loader
 
 ### Child POM
 
-#### 1. moduleone Module
+#### 1. serviceProvider Module
 In this module, there is a single class `VehicleProvider.java` which has a interface that is going to use as a `Service Provider Interface`
 
-#### 2. moduletwo Module
+#### 2. impl Module
 This module is going to provide the body for `Service Provider Interface`. It has three classes `BikeService.java`, `CarService.java`, `TruckService.java` right now which act as a `Service Provider`.
 
-#### 3. modulethree Module
+#### 3. loader Module
 It is `ServiceLoader` class which loads API module and uses it in `ServiceLoaderclass.java`
 
 
